@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+    /*
+    Realizar un programa que solicite tres notas del estudiante, calcule el promedio e indique 
+    si esta aprobado o reprobado sabiendo que se aprueba con una nota mayor o igual a 70. Utilice 
+    temple string para mostrar las salidas. 
+    */
+   alert("Ingrese las notas del alumno")
+   var nota1=parseInt(prompt("Ingrese la primer nota del estudiante"))
+   var nota2=parseInt(prompt("Ingrese la segunda nota del estudiante"))
+   var nota3=parseInt(prompt("Ingrese la tercera nota del estudiante"))
+   var totalnota=nota1+nota2+nota3
+   var promedio= totalnota/3
+   alert("El promedio del alumno es:" + promedio)
+   if(promedio >= 70){
+       alert(`El alumno esta aprobado`)
+   }else{
+    alert(`El alumno esta reprobado`)  
+   }
+
+
+
+</script>
+<body>
+    
+</body>
+</html>

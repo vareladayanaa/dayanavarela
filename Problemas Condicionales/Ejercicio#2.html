@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Condicionales 2 </title>
+</head>
+<script>
+    /*
+    Una tienda que da el 30% de descuentop sobre una compra si esta es mayor a 2000 lempiras y sino de un 
+    descuento del 5%. Muestre como salida el total de la compra el descuento y el total a pagar
+    Realizado por Dayana Varela
+    */
+   var compra=parseInt(prompt("Ingresa el valor de la compra"))
+   if(compra>2000){
+       var descuento = 0.3* compra
+       var totalpagar = compra - descuento
+       alert("El valor de la compra es: " + compra)
+       alert("El descuento es del 30% equivalente: "+ descuento)
+       alert("El total a pagar es: " + totalpagar)
+   }else{
+    var descuento = 0.05 * compra
+       var totalpagar = compra - descuento
+       alert("El valor de la compra es: " + compra)
+       alert("El descuento es del 5% equivalente: "+ descuento)
+       alert("El total a pagar es: " + totalpagar)  
+   }
+</script>
+<body>
+    
+</body>
+</html>
